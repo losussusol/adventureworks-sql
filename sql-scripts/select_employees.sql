@@ -1,3 +1,3 @@
 SELECT *
 FROM HumanResources.Employee
-WHERE DepartmentID = 5
+WHERE DepartmentID in (1,5)
