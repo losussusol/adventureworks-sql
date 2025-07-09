@@ -1,3 +1,2 @@
-SELECT *
-FROM HumanResources.Employee
-WHERE DepartmentID = 5
+SELECT BusinessEntityID, JobTitle, HireDate
+FROM HumanResources.Employee;
