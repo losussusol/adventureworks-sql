@@ -1,2 +1,3 @@
 SELECT BusinessEntityID, JobTitle, HireDate
-FROM HumanResources.Employee;
+FROM HumanResources.Employee
+WHERE JobTitle = 'Design Engineer'
